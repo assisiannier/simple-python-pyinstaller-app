@@ -6,6 +6,7 @@ pipeline {
                 bat 'python sources\\test_calc.py' 
             }
         }
+    }
     stages {
         stage('Deploy') {
             steps {
